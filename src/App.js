@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-function ScreenRecorder() {
+const ScreenRecorder = () => {
   const [recording, setRecording] = useState(false);
   const [videoURL, setVideoURL] = useState(null);
   const mediaRecorderRef = useRef(null);
